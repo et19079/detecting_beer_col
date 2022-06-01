@@ -32,7 +32,7 @@ def findColor (color, temp):
     j = 0
     x = np.array([0,0,0,0,0])
     
-    # fuer alle Farben (5) vergleiche anstellen
+    # fuer alle Farben (5) Vergleiche anstellen
     for i in color:
         # Farbraum ändern
         referenc = LabColor(i[0],i[1],i[2]) 
